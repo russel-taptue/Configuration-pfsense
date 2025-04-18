@@ -38,6 +38,7 @@ Une architecture simple à double interface :
 ![Architecture du projet](images/architecture.png)
 
 L’interface Web est accessible uniquement via LAN pour des raisons de sécurité.
+
 ![Interface web de pfsense](images/web.png)
 ---
 
@@ -58,7 +59,7 @@ Permet de restreindre l’accès au réseau :
 - Règles filtrantes basées sur les adresses et protocoles
 - Exemple : accès SSH autorisé uniquement à l’admin LAN
 - Blocage de l’accès Web à l’interface pfSense depuis le WAN
-![Règles de Pare-feu](images/regles.png)
+![Règles de Pare-feu](images/regle.png)
 
 ### 3. Blocage Publicités - pfBlockerNG
 
@@ -128,9 +129,4 @@ Tunnel sécurisé entre deux sites distants :
 - Rapport : *presentation de configuration pfsense – 2024/2025*
 
 ---
-
-## 🤝 Auteurs
-
-**Team PFSENSE**  
-Projet de simulation et sécurisation réseau avec pfSense.
 
